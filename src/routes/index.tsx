@@ -4,19 +4,22 @@ import heroMill from "@/assets/hero-mill.jpg";
 import woolFibre from "@/assets/wool-fibre.jpg";
 import yarnCones from "@/assets/yarn-cones.jpg";
 import carding from "@/assets/carding.jpg";
+import cardMachine from "@/assets/Card.jpeg";
+import loadingDispatch from "@/assets/loading-dispatch.jpeg";
+import rolls from "@/assets/rolls.jpeg";
+import spinning from "@/assets/spinning.jpg";
 import {
   Section,
   SectionHeading,
   CtaLink,
-  ImagePlaceholder,
   ClosingCta,
   Note,
 } from "@/components/site/ui";
 import { processSteps, products, stats, whatsappHref } from "@/lib/site";
 
-const TITLE = "Woolen Yarn Manufacturer in India | M. K. Woolen";
+const TITLE = "Woollen Yarn Manufacturer in India | M. K. Woollen";
 const DESCRIPTION =
-  "M. K. Woolen is a Bikaner-based woolen yarn manufacturer supplying grey and undyed wool yarn for carpet manufacturers, exporters and textile businesses across India.";
+  "M. K. Woollen is a Bikaner-based woollen yarn manufacturer supplying grey and undyed wool yarn for carpet manufacturers, exporters and textile businesses across India.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -79,6 +82,49 @@ const qualityChecklist = [
   "Packaging and handling",
 ];
 
+const facilityImages = [
+  {
+    image: yarnCones,
+    label: "Warehouse",
+    alt: "Pallets of grey undyed woollen carpet yarn packed in a warehouse",
+  },
+  {
+    image: heroMill,
+    label: "Factory exterior",
+    alt: "Woollen yarn spinning machinery inside a mill facility",
+  },
+  {
+    image: woolFibre,
+    label: "Raw wool storage",
+    alt: "Natural wool fibre prepared for processing",
+  },
+  {
+    image: cardMachine,
+    label: "Carding",
+    alt: "Carding machinery processing woollen fibre into a uniform web",
+  },
+  {
+    image: carding,
+    label: "Spinning",
+    alt: "Wool fibre moving through spinning machinery",
+  },
+  {
+    image: spinning,
+    label: "Yarn hanks",
+    alt: "Finished woollen yarn bobbins collected in the mill",
+  },
+  {
+    image: rolls,
+    label: "Packing",
+    alt: "Finished woollen yarn rolls ready for packing",
+  },
+  {
+    image: loadingDispatch,
+    label: "Loading / dispatch",
+    alt: "Truck being loaded for woollen yarn dispatch",
+  },
+];
+
 function Home() {
   return (
     <>
@@ -86,7 +132,7 @@ function Home() {
       <section className="relative isolate flex min-h-[88vh] items-end overflow-hidden bg-ink">
         <img
           src={heroMill}
-          alt="Spinning frames in a woolen yarn mill with cream-coloured wool yarn on bobbins"
+          alt="Spinning frames in a woollen yarn mill with cream-coloured wool yarn on bobbins"
           width={1920}
           height={1088}
           fetchPriority="high"
@@ -102,10 +148,10 @@ function Home() {
               Bikaner, Rajasthan, India — B2B Wool Yarn Manufacturing
             </p>
             <h1 className="mt-5 text-4xl leading-[1.08] text-cream sm:text-5xl lg:text-[3.75rem]">
-              Premium Woolen Carpet Yarn Manufacturer in Bikaner, India
+              Premium Woollen Carpet Yarn Manufacturer in Bikaner, India
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-cream/75 lg:text-lg">
-              M. K. Woolen manufactures grey and undyed woolen yarn for carpet manufacturers,
+              M. K. Woollen manufactures grey and undyed woollen yarn for carpet manufacturers,
               exporters and textile businesses across India, with a primary focus on quality wool
               sourced from New Zealand.
             </p>
@@ -140,12 +186,12 @@ function Home() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <div>
             <SectionHeading
-              eyebrow="About M. K. Woolen"
+              eyebrow="About M. K. Woollen"
               title="Built Around Wool. Focused on Consistency."
             />
             <div className="mt-6 space-y-5 text-base leading-relaxed text-muted-foreground">
               <p>
-                Based in Bikaner, Rajasthan, M. K. Woolen is a woolen yarn manufacturing company
+                Based in Bikaner, Rajasthan, M. K. Woollen is a woollen yarn manufacturing company
                 focused on supplying reliable grey and undyed yarn to India's carpet manufacturing
                 industry.
               </p>
@@ -163,12 +209,12 @@ function Home() {
               to="/about"
               className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-accent transition-transform hover:translate-x-1"
             >
-              Learn More About M. K. Woolen <ArrowRight size={16} aria-hidden="true" />
+              Learn More About M. K. Woollen <ArrowRight size={16} aria-hidden="true" />
             </Link>
           </div>
           <img
             src={woolFibre}
-            alt="Close-up of undyed natural wool fibre used to manufacture woolen carpet yarn"
+            alt="Close-up of undyed natural wool fibre used to manufacture woollen carpet yarn"
             width={1200}
             height={900}
             loading="lazy"
@@ -180,7 +226,7 @@ function Home() {
       {/* WHY */}
       <Section tone="cream">
         <SectionHeading
-          eyebrow="Why M. K. Woolen"
+          eyebrow="Why M. K. Woollen"
           title="Why Carpet Manufacturers Choose a Reliable Yarn Partner"
         />
         <div className="mt-14 grid gap-px border-t border-border sm:grid-cols-2 lg:grid-cols-3">
@@ -200,8 +246,8 @@ function Home() {
       <Section>
         <SectionHeading
           eyebrow="Products"
-          title="Grey & Undyed Woolen Yarn"
-          intro="Our core offering is grey/undyed woolen yarn manufactured for carpet and textile applications."
+          title="Grey & Undyed Woollen Yarn"
+          intro="Our core offering is grey/undyed woollen yarn manufactured for carpet and textile applications."
         />
         <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {products.map((p) => (
@@ -233,7 +279,7 @@ function Home() {
             {
               city: "Bhadohi",
               sub: "For Hand-Knotted & Hand-Tufted Carpet Manufacturing",
-              body: "We supply woolen yarn to manufacturers and businesses in Bhadohi, one of India's major carpet manufacturing centres. Our grey/undyed yarn provides a flexible base for downstream dyeing and carpet production.",
+              body: "We supply woollen yarn to manufacturers and businesses in Bhadohi, one of India's major carpet manufacturing centres. Our grey/undyed yarn provides a flexible base for downstream dyeing and carpet production.",
               cta: "For Bhadohi Buyers",
             },
             {
@@ -301,9 +347,9 @@ function Home() {
           <div>
             <SectionHeading eyebrow="Quality" title="Quality That Starts With the Fibre" />
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              For professional carpet manufacturers, yarn consistency matters. M. K. Woolen focuses
+              For professional carpet manufacturers, yarn consistency matters. M. K. Woollen focuses
               on careful raw-material selection and controlled manufacturing to deliver dependable
-              grey/undyed woolen yarn for downstream carpet production.
+              grey/undyed woollen yarn for downstream carpet production.
             </p>
             <div className="mt-10 border border-border p-6">
               <h3 className="eyebrow">Quality Certifications</h3>
@@ -329,29 +375,24 @@ function Home() {
       <Section tone="muted">
         <SectionHeading
           eyebrow="Infrastructure"
-          title="Inside M. K. Woolen"
-          intro="Photography from our Bikaner facility. Placeholders below are reserved for actual company photographs."
+          title="Inside M. K. Woollen"
+          intro="Photography from our Bikaner facility."
         />
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <img
-            src={yarnCones}
-            alt="Pallets of grey undyed woolen carpet yarn packed in a warehouse"
-            width={1200}
-            height={900}
-            loading="lazy"
-            className="aspect-[4/3] w-full object-cover"
-          />
-          {[
-            "Factory exterior",
-            "Raw wool storage",
-            "Carding",
-            "Spinning",
-            "Yarn hanks",
-            "Packing",
-            "Warehouse",
-            "Loading / dispatch",
-          ].map((label) => (
-            <ImagePlaceholder key={label} label={`Photo: ${label}`} />
+          {facilityImages.map((item) => (
+            <figure key={item.label} className="overflow-hidden">
+              <img
+                src={item.image}
+                alt={item.alt}
+                width={1200}
+                height={900}
+                loading="lazy"
+                className="aspect-[4/3] w-full object-cover transition-transform duration-500 hover:scale-[1.02]"
+              />
+              <figcaption className="pt-3 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                {item.label}
+              </figcaption>
+            </figure>
           ))}
         </div>
         <div className="mt-14 grid gap-px border-t border-border sm:grid-cols-2 lg:grid-cols-4">
@@ -363,8 +404,7 @@ function Home() {
           ))}
         </div>
         <Note>
-          All figures above are placeholders. They will be published only after confirmation from M.
-          K. Woolen.
+          All images are the property of M. K. Woollen and are used with permission. Unauthorized use or reproduction is prohibited.
         </Note>
       </Section>
 

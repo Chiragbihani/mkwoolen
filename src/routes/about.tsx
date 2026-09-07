@@ -2,9 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import woolFibre from "@/assets/wool-fibre.jpg";
 import { PageHero, Section, SectionHeading, ClosingCta, Note } from "@/components/site/ui";
 
-const TITLE = "About M. K. Woolen | Wool Yarn Manufacturer in Bikaner";
+const TITLE = "About M. K. Woollen | Wool Yarn Manufacturer in Bikaner";
 const DESCRIPTION =
-  "M. K. Woolen is a woolen yarn manufacturer in Bikaner, Rajasthan, producing grey and undyed wool yarn for India's carpet and textile industry.";
+  "M. K. Woollen is a woollen yarn manufacturer in Bikaner, Rajasthan, producing grey and undyed wool yarn for India's carpet and textile industry.";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -36,8 +36,8 @@ function About() {
     <>
       <PageHero
         eyebrow="About Us"
-        title="A Woolen Yarn Manufacturer from Bikaner"
-        intro="M. K. Woolen manufactures grey and undyed woolen yarn for carpet and textile businesses, working primarily with wool sourced from New Zealand."
+        title="A Woollen Yarn Manufacturer from Bikaner"
+        intro="M. K. Woollen manufactures grey and undyed woollen yarn for carpet and textile businesses, working primarily with wool sourced from New Zealand."
       />
 
       <Section>
@@ -46,11 +46,11 @@ function About() {
             <SectionHeading eyebrow="Our Story" title="Wool Processing and Yarn Manufacturing" />
             <div className="mt-6 space-y-5 text-base leading-relaxed text-muted-foreground">
               <p>
-                M. K. Woolen was established in Bikaner, Rajasthan, with a focus on wool processing
+                M. K. Woollen was established in Bikaner, Rajasthan, with a focus on wool processing
                 and yarn manufacturing for the carpet and textile industry.
               </p>
               <p>
-                Our work is centred on a single, focused output: dependable grey and undyed woolen
+                Our work is centred on a single, focused output: dependable grey and undyed woollen
                 yarn that carpet manufacturers can dye and process according to their own
                 requirements.
               </p>

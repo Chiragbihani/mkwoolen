@@ -81,14 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Woolen Yarn Manufacturer in India | M. K. Woolen" },
+      { title: "Woollen Yarn Manufacturer in India | M. K. Woollen" },
       {
         name: "description",
         content:
-          "M. K. Woolen is a Bikaner-based woolen yarn manufacturer supplying grey and undyed wool yarn for carpet manufacturers, exporters and textile businesses across India.",
+          "M. K. Woollen is a Bikaner-based woollen yarn manufacturer supplying grey and undyed wool yarn for carpet manufacturers, exporters and textile businesses across India.",
       },
-      { name: "author", content: "M. K. Woolen" },
-      { property: "og:site_name", content: "M. K. Woolen" },
+      { name: "author", content: "M. K. Woollen" },
+      { property: "og:site_name", content: "M. K. Woollen" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "en_IN" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -109,9 +109,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "M. K. Woolen",
+          name: "M. K. Woollen",
           description:
-            "Woolen yarn manufacturer in Bikaner, Rajasthan, India, supplying grey and undyed wool carpet yarn to carpet manufacturers and exporters.",
+            "Woollen yarn manufacturer in Bikaner, Rajasthan, India, supplying grey and undyed wool carpet yarn to carpet manufacturers and exporters.",
           address: {
             "@type": "PostalAddress",
             streetAddress: "H-33, 34, 49, 50, Karni Agro Industrial Area",

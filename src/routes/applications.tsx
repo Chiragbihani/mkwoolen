@@ -3,9 +3,9 @@ import yarnCones from "@/assets/yarn-cones.jpg";
 import woolFibre from "@/assets/wool-fibre.jpg";
 import { PageHero, Section, ImagePlaceholder, ClosingCta } from "@/components/site/ui";
 
-const TITLE = "Carpet Yarn Applications & Industries | M. K. Woolen";
+const TITLE = "Carpet Yarn Applications & Industries | M. K. Woollen";
 const DESCRIPTION =
-  "Woolen yarn for hand-knotted, hand-tufted and machine-made carpet manufacturing, supplied to carpet hubs including Bhadohi, Panipat, Agra, Ludhiana and Srinagar.";
+  "Woollen yarn for hand-knotted, hand-tufted and machine-made carpet manufacturing, supplied to carpet hubs including Bhadohi, Panipat, Agra, Ludhiana and Srinagar.";
 
 export const Route = createFileRoute("/applications")({
   head: () => ({
@@ -55,7 +55,7 @@ function Applications() {
       <PageHero
         eyebrow="Applications / Industries"
         title="Yarn Made for Carpet Manufacturing"
-        intro="Our grey and undyed woolen yarn is supplied into traditional hand-made carpet production as well as industrial, machine-made manufacturing."
+        intro="Our grey and undyed woollen yarn is supplied into traditional hand-made carpet production as well as industrial, machine-made manufacturing."
       />
 
       <Section>

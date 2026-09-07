@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero, Section, SectionHeading, ClosingCta, Note } from "@/components/site/ui";
 
-const TITLE = "Quality & Manufacturing Capabilities | M. K. Woolen";
+const TITLE = "Quality & Manufacturing Capabilities | M. K. Woollen";
 const DESCRIPTION =
-  "Raw material selection, controlled manufacturing and batch-level quality checks behind M. K. Woolen's grey and undyed wool carpet yarn from Bikaner, India.";
+  "Raw material selection, controlled manufacturing and batch-level quality checks behind M. K. Woollen's grey and undyed wool carpet yarn from Bikaner, India.";
 
 export const Route = createFileRoute("/quality")({
   head: () => ({
@@ -21,11 +21,14 @@ export const Route = createFileRoute("/quality")({
 });
 
 const tests = [
-  "[TENSILE STRENGTH TEST — CONFIRM]",
-  "[YARN COUNT TEST — CONFIRM]",
-  "[TWIST TEST — CONFIRM]",
-  "[MOISTURE TEST — CONFIRM]",
-  "[OTHER TESTS — CONFIRM]",
+  "Raw-material selection",
+  "Fibre preparation",
+  "Washing / scouring",
+  "Carding consistency",
+  "Spinning consistency",
+  "Yarn count and ply",
+  "Batch-level yarn inspection",
+  "Packaging and handling",
 ];
 
 const infrastructure = [
@@ -48,11 +51,12 @@ function Quality() {
       <Section>
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
           <div>
-            <SectionHeading eyebrow="Raw Material" title="Primarily New Zealand Wool" />
+            <SectionHeading eyebrow="Raw Material" title="Selected Wool Sources" />
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              Our primary raw material is wool sourced from New Zealand, selected for the
-              requirements of carpet yarn manufacturing. Blend details are confirmed against each
-              customer's specification. [CONFIRM BLENDS]
+              We work with wool from New Zealand, Turkey greasy, Spain greasy, European greasy,
+              Jordan, Jodi, Eader, Spain Matrex, Saudi, Seredian, Egypt greasy, Tunisia, Algeria
+              Backwash and Algeria Tanrey. The suitable source or blend is selected against each
+              customer's yarn requirement.
             </p>
           </div>
           <div>
@@ -69,7 +73,7 @@ function Quality() {
         <SectionHeading
           eyebrow="Quality Checks"
           title="Checks Across the Production Run"
-          intro="The checks listed below are pending confirmation and will be published only once verified by M. K. Woolen."
+          intro="Quality is checked from raw-material selection through processing, inspection and final handling."
         />
         <ul className="mt-10 grid gap-px border-t border-border sm:grid-cols-2">
           {tests.map((t) => (
@@ -78,19 +82,13 @@ function Quality() {
             </li>
           ))}
         </ul>
-        <div className="mt-12 border border-border bg-background p-7">
-          <h3 className="eyebrow">Quality Certifications</h3>
-          <p className="mt-3 text-sm text-muted-foreground">
-            [CERTIFICATIONS, IF ANY] — no certification is claimed until documentation is provided.
-          </p>
-        </div>
       </Section>
 
       <Section>
         <SectionHeading eyebrow="Infrastructure" title="Facility & Capacity" />
         <div className="mt-10 overflow-x-auto">
           <table className="w-full border-collapse text-left text-sm">
-            <caption className="sr-only">M. K. Woolen infrastructure details</caption>
+            <caption className="sr-only">M. K. Woollen infrastructure details</caption>
             <thead>
               <tr className="border-b-2 border-ink">
                 <th scope="col" className="py-3 pr-6 eyebrow">

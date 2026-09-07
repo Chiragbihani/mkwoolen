@@ -24,9 +24,9 @@ export function Header() {
     >
       <div className="mx-auto flex h-18 max-w-7xl items-center justify-between gap-6 px-5 py-4 lg:px-8">
         <Link to="/" className="group flex flex-col leading-none" onClick={() => setOpen(false)}>
-          <span className="font-display text-xl tracking-tight text-foreground">M. K. Woolen</span>
+          <span className="font-display text-xl tracking-tight text-foreground">M. K. Woollen</span>
           <span className="mt-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-            Woolen Yarn Manufacturer
+            Woollen Yarn Manufacturer
           </span>
         </Link>
 

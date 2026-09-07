@@ -6,9 +6,9 @@ export function Footer() {
     <footer className="bg-ink text-cream">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 lg:grid-cols-4 lg:px-8 lg:py-20">
         <div className="lg:col-span-2 lg:pr-12">
-          <p className="font-display text-2xl">M. K. Woolen</p>
+          <p className="font-display text-2xl">M. K. Woollen</p>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream/70">
-            Woolen yarn manufacturing from Bikaner, Rajasthan, India. Grey and undyed wool yarn for
+            Woollen yarn manufacturing from Bikaner, Rajasthan, India. Grey and undyed wool yarn for
             carpet manufacturers, exporters and textile businesses.
           </p>
           <p className="mt-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-cream/45">
@@ -68,7 +68,7 @@ export function Footer() {
 
       <div className="border-t border-cream/12">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-6 text-xs text-cream/50 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-          <p>© 2026 M. K. Woolen. All Rights Reserved.</p>
+          <p>© 2026 M. K. Woollen. All Rights Reserved.</p>
           <p>Bikaner, Rajasthan, India</p>
         </div>
       </div>

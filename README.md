@@ -1,17 +1,17 @@
-# Woolen Yarn Weaver
+# Woollen Yarn Weaver
 
 build a website using the below description 
-Build a Premium B2B Manufacturing Website for M. K. Woolen
+Build a Premium B2B Manufacturing Website for M. K. Woollen
 1. Project Overview
-Create a modern, premium, trustworthy B2B manufacturing website for M. K. Woolen, a woolen yarn manufacturing company based in Bikaner, Rajasthan, India.
+Create a modern, premium, trustworthy B2B manufacturing website for M. K. Woollen, a woollen yarn manufacturing company based in Bikaner, Rajasthan, India.
 
-The company manufactures grey/undyed woolen carpet yarn and supplies yarn to carpet and textile manufacturing hubs across India, particularly:
+The company manufactures grey/undyed woollen carpet yarn and supplies yarn to carpet and textile manufacturing hubs across India, particularly:
 
 Bhadohi, Uttar Pradesh — hand-knotted and hand-tufted carpet manufacturers
 Panipat, Haryana — machine-made carpet and textile manufacturers
 The company primarily works with New Zealand wool as its raw material.
 
-The website should position M. K. Woolen as a reliable Indian wool yarn manufacturing partner for B2B buyers, rather than as a retail or consumer brand.
+The website should position M. K. Woollen as a reliable Indian wool yarn manufacturing partner for B2B buyers, rather than as a retail or consumer brand.
 
 The primary objective of the website is to:
 
@@ -25,7 +25,7 @@ Make it easy for domestic and international buyers to contact the company.
 Create a strong foundation for future SEO and international business development.
 2. Brand Positioning
 Core positioning
-Premium Woolen Carpet Yarn Manufacturer in Bikaner, India
+Premium Woollen Carpet Yarn Manufacturer in Bikaner, India
 
 Supporting positioning:
 
@@ -33,7 +33,7 @@ New Zealand Wool. Carefully Processed. Consistent Yarn.
 
 Alternative supporting message:
 
-Reliable Grey Woolen Yarn for Carpet Manufacturers Across India.
+Reliable Grey Woollen Yarn for Carpet Manufacturers Across India.
 
 Do NOT position the company as a fashion/yarn retail business.
 
@@ -65,7 +65,7 @@ Where exact information is unavailable, use clearly marked placeholders such as:
 [PLY OPTIONS]
 [FACTORY ADDRESS] = H-33,34,49,50, Karni Agro Industrial Area, Bikaner
 [PHONE NUMBER] = 7726823592, 9351338278
-[EMAIL ADDRESS] = mkwoolen1@gmail.com
+[EMAIL ADDRESS] = mkwoollen1@gmail.com
 [CERTIFICATIONS, IF ANY]
 [MACHINERY DETAILS]
 Do not claim ISO, RWS, OEKO-TEX, GOTS, or any other certification unless explicitly provided later.
@@ -103,7 +103,7 @@ People searching for:
 Wool yarn manufacturers in India
 Carpet yarn suppliers
 Grey wool yarn suppliers
-Woolen yarn manufacturers
+Woollen yarn manufacturers
 New Zealand wool yarn suppliers
 Carpet yarn manufacturers in Bikaner
 Wool yarn suppliers for carpet manufacturing
@@ -204,10 +204,10 @@ Factory floor
 If actual company photographs are not available yet, create the layout using elegant placeholders and clearly label them for replacement.
 
 Hero headline
-Premium Woolen Carpet Yarn Manufacturer in Bikaner, India
+Premium Woollen Carpet Yarn Manufacturer in Bikaner, India
 
 Supporting text
-M. K. Woolen manufactures grey and undyed woolen yarn for carpet manufacturers, exporters and textile businesses across India, with a primary focus on quality wool sourced from New Zealand.
+M. K. Woollen manufactures grey and undyed woollen yarn for carpet manufacturers, exporters and textile businesses across India, with a primary focus on quality wool sourced from New Zealand.
 
 Primary CTA
 Request a Yarn Sample
@@ -243,7 +243,7 @@ Built Around Wool. Focused on Consistency.
 
 Suggested copy:
 
-Based in Bikaner, Rajasthan, M. K. Woolen is a woolen yarn manufacturing company focused on supplying reliable grey and undyed yarn to India's carpet manufacturing industry.
+Based in Bikaner, Rajasthan, M. K. Woollen is a woollen yarn manufacturing company focused on supplying reliable grey and undyed yarn to India's carpet manufacturing industry.
 
 Our primary raw material is New Zealand wool, selected and processed to produce yarn suited to the requirements of professional carpet manufacturers and textile businesses.
 
@@ -251,11 +251,11 @@ From sourcing and processing to spinning and final packing, our focus is on deli
 
 CTA:
 
-Learn More About M. K. Woolen →
+Learn More About M. K. Woollen →
 
 Include an image of the factory / wool / yarn.
 
-11. HOMEPAGE — WHY M. K. WOOLEN
+11. HOMEPAGE — WHY M. K. WOOLLEN
 Create a premium 4- or 6-column feature section.
 
 Headline:
@@ -289,11 +289,11 @@ Create a visual product section.
 
 Headline:
 
-Grey & Undyed Woolen Yarn
+Grey & Undyed Woollen Yarn
 
 Intro:
 
-Our core offering is grey/undyed woolen yarn manufactured for carpet and textile applications.
+Our core offering is grey/undyed woollen yarn manufactured for carpet and textile applications.
 
 Create product cards for:
 
@@ -335,7 +335,7 @@ For Hand-Knotted & Hand-Tufted Carpet Manufacturing
 
 Copy:
 
-We supply woolen yarn to manufacturers and businesses in Bhadohi, one of India's major carpet manufacturing centres. Our grey/undyed yarn provides a flexible base for downstream dyeing and carpet production.
+We supply woollen yarn to manufacturers and businesses in Bhadohi, one of India's major carpet manufacturing centres. Our grey/undyed yarn provides a flexible base for downstream dyeing and carpet production.
 
 CTA:
 
@@ -395,7 +395,7 @@ Quality That Starts With the Fibre
 
 Suggested copy:
 
-For professional carpet manufacturers, yarn consistency matters. M. K. Woolen focuses on careful raw-material selection and controlled manufacturing to deliver dependable grey/undyed woolen yarn for downstream carpet production.
+For professional carpet manufacturers, yarn consistency matters. M. K. Woollen focuses on careful raw-material selection and controlled manufacturing to deliver dependable grey/undyed woollen yarn for downstream carpet production.
 
 Create a quality checklist:
 
@@ -418,7 +418,7 @@ Do not show fake certification logos.
 16. HOMEPAGE — FACTORY / INFRASTRUCTURE
 Create a large photographic section titled:
 
-Inside M. K. Woolen
+Inside M. K. Woollen
 
 Use placeholders for actual images:
 
@@ -490,14 +490,14 @@ Create a premium company story page.
 
 Headline:
 
-A Woolen Yarn Manufacturer from Bikaner
+A Woollen Yarn Manufacturer from Bikaner
 
 Sections:
 
 Our Story
 Use placeholders for the actual founding story:
 
-M. K. Woolen was established in Bikaner, Rajasthan, with a focus on wool processing and yarn manufacturing for the carpet and textile industry.
+M. K. Woollen was established in Bikaner, Rajasthan, with a focus on wool processing and yarn manufacturing for the carpet and textile industry.
 
 Add:
 
@@ -531,7 +531,7 @@ Columns:
 
 Specification	Details
 Raw Material	New Zealand Wool / [CONFIRM BLENDS]
-Yarn Type	Woolen Yarn
+Yarn Type	Woollen Yarn
 Colour State	Grey / Undyed
 Application	Carpet & Textile Manufacturing
 Count Range	[TO BE CONFIRMED]
@@ -682,12 +682,12 @@ Submit Enquiry
 
 After submission:
 
-Thank you for contacting M. K. Woolen. Our team will review your requirement and contact you shortly.
+Thank you for contacting M. K. Woollen. Our team will review your requirement and contact you shortly.
 
 25. CONTACT PAGE
 Headline:
 
-Talk to M. K. Woolen
+Talk to M. K. Woollen
 
 Include:
 
@@ -727,8 +727,8 @@ Create a premium dark footer.
 
 Include:
 
-M. K. Woolen
-Woolen yarn manufacturing from Bikaner, Rajasthan, India.
+M. K. Woollen
+Woollen yarn manufacturing from Bikaner, Rajasthan, India.
 
 Navigation:
 
@@ -752,7 +752,7 @@ LinkedIn [ADD URL]
 Instagram [ADD URL IF APPLICABLE]
 Add:
 
-© 2026 M. K. Woolen. All Rights Reserved.
+© 2026 M. K. Woollen. All Rights Reserved.
 
 Do not add social profiles until actual URLs are provided.
 
@@ -764,7 +764,7 @@ Target keywords naturally, without keyword stuffing.
 Primary keywords:
 
 wool yarn manufacturer in India
-woolen yarn manufacturer
+woollen yarn manufacturer
 wool yarn supplier India
 carpet yarn manufacturer India
 carpet yarn supplier
@@ -784,11 +784,11 @@ Create SEO-friendly metadata for every page.
 
 Example homepage title:
 
-Woolen Yarn Manufacturer in India | M. K. Woolen
+Woollen Yarn Manufacturer in India | M. K. Woollen
 
 Example homepage meta description:
 
-M. K. Woolen is a Bikaner-based woolen yarn manufacturer supplying grey and undyed wool yarn for carpet manufacturers, exporters and textile businesses across India.
+M. K. Woollen is a Bikaner-based woollen yarn manufacturer supplying grey and undyed wool yarn for carpet manufacturers, exporters and textile businesses across India.
 
 Use proper:
 
@@ -867,7 +867,7 @@ The WhatsApp button should open a conversation with the company's official Whats
 
 Pre-filled message:
 
-Hello M. K. Woolen, I am interested in your grey/undyed woolen yarn. I would like to discuss my requirement and request a sample.
+Hello M. K. Woollen, I am interested in your grey/undyed woollen yarn. I would like to discuss my requirement and request a sample.
 
 Do not invent the number.
 
@@ -891,7 +891,7 @@ Export markets
 Where possible, structure repeated product/application/process information as reusable components rather than hard-coded individual pages.
 
 34. IMAGE DIRECTION
-The website will eventually use real photographs from the M. K. Woolen factory.
+The website will eventually use real photographs from the M. K. Woollen factory.
 
 Prioritize actual company photography over stock photography.
 
@@ -1105,7 +1105,7 @@ We understand B2B carpet manufacturing.
 
 We work primarily with New Zealand wool.
 
-We manufacture grey/undyed woolen yarn.
+We manufacture grey/undyed woollen yarn.
 
 We supply both traditional and industrial carpet markets.
 
@@ -1150,8 +1150,8 @@ The final homepage should follow this storytelling order:
 
 Hero
 Trust strip
-About M. K. Woolen
-Why M. K. Woolen
+About M. K. Woollen
+Why M. K. Woollen
 Products
 Bhadohi + Panipat
 Manufacturing process
@@ -1182,7 +1182,7 @@ The strongest visual concept should combine:
 
 Natural wool textures + close-up yarn photography + modern manufacturing machinery + warm neutral colors + sophisticated typography.
 
-Build the website as a polished production-ready first version, while clearly marking every piece of information that requires confirmation from M. K. Woolen.
+Build the website as a polished production-ready first version, while clearly marking every piece of information that requires confirmation from M. K. Woollen.
 
 After building the first version, provide a clear checklist of all [TO BE CONFIRMED] information and assets needed from the company to make the website production-ready.
 

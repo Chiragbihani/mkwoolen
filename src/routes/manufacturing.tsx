@@ -3,11 +3,15 @@ import carding from "@/assets/carding.jpg";
 import heroMill from "@/assets/hero-mill.jpg";
 import yarnCones from "@/assets/yarn-cones.jpg";
 import woolFibre from "@/assets/wool-fibre.jpg";
-import { PageHero, Section, ImagePlaceholder, ClosingCta, Note } from "@/components/site/ui";
+import cardMachine from "@/assets/Card.jpeg";
+import loadingDispatch from "@/assets/loading-dispatch.jpeg";
+import rolls from "@/assets/rolls.jpeg";
+import spinning from "@/assets/spinning.jpg";
+import { PageHero, Section, ClosingCta, Note } from "@/components/site/ui";
 
-const TITLE = "Wool to Yarn Manufacturing Process | M. K. Woolen";
+const TITLE = "Wool to Yarn Manufacturing Process | M. K. Woollen";
 const DESCRIPTION =
-  "How M. K. Woolen turns New Zealand wool into grey and undyed carpet yarn: sourcing, scouring, carding, spinning, winding, inspection, packing and dispatch.";
+  "How M. K. Woollen turns New Zealand wool into grey and undyed carpet yarn: sourcing, scouring, carding, spinning, winding, inspection, packing and dispatch.";
 
 export const Route = createFileRoute("/manufacturing")({
   head: () => ({
@@ -36,12 +40,14 @@ const steps: Step[] = [
   {
     title: "Preparation",
     body: "Raw wool is graded and prepared for processing according to the yarn being produced.",
-    placeholder: "Photo: Raw wool storage & grading",
+    image: rolls,
+    alt: "Wool rolls stored and prepared for yarn manufacturing",
   },
   {
     title: "Scouring",
     body: "Wool is cleaned to remove grease and impurities before fibre processing begins.",
-    placeholder: "Photo: Scouring line",
+    image: cardMachine,
+    alt: "Wool processing machinery used to prepare fibre",
   },
   {
     title: "Carding",
@@ -51,30 +57,33 @@ const steps: Step[] = [
   },
   {
     title: "Spinning",
-    body: "Prepared fibre is drawn and twisted into woolen yarn at the required count and ply.",
+    body: "Prepared fibre is drawn and twisted into woollen yarn at the required count and ply.",
     image: heroMill,
     alt: "Spinning frames converting wool fibre into yarn",
   },
   {
     title: "Winding",
     body: "Spun yarn is wound into the form required by the customer.",
-    placeholder: "Photo: Winding department",
+    image: spinning,
+    alt: "Woollen yarn wound onto bobbins in the spinning department",
   },
   {
     title: "Inspection",
     body: "Yarn is checked at batch level before it is released for packing.",
-    placeholder: "Photo: Inspection & quality check",
+    image: yarnCones,
+    alt: "Finished woollen yarn prepared for inspection and packing",
   },
   {
     title: "Packing",
     body: "Finished yarn is packed according to order and transport requirements.",
     image: yarnCones,
-    alt: "Packed grey woolen yarn stacked on pallets",
+    alt: "Packed grey woollen yarn stacked on pallets",
   },
   {
     title: "Dispatch",
     body: "Consignments are loaded and dispatched to carpet and textile manufacturers.",
-    placeholder: "Photo: Loading & dispatch",
+    image: loadingDispatch,
+    alt: "Woollen yarn consignment being loaded for dispatch",
   },
 ];
 
@@ -96,18 +105,14 @@ function Manufacturing() {
                 i % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
               }`}
             >
-              {step.image ? (
-                <img
-                  src={step.image}
-                  alt={step.alt ?? step.title}
-                  width={1200}
-                  height={900}
-                  loading="lazy"
-                  className="aspect-[4/3] w-full object-cover"
-                />
-              ) : (
-                <ImagePlaceholder label={step.placeholder ?? step.title} />
-              )}
+              <img
+                src={step.image ?? carding}
+                alt={step.alt ?? step.title}
+                width={1200}
+                height={900}
+                loading="lazy"
+                className="aspect-[4/3] w-full object-cover"
+              />
               <div>
                 <span className="eyebrow">Step {String(i + 1).padStart(2, "0")}</span>
                 <h2 className="mt-3 font-display text-3xl text-foreground">{step.title}</h2>
@@ -119,8 +124,7 @@ function Manufacturing() {
           ))}
         </ol>
         <Note>
-          [VERIFY EACH PROCESS AGAINST ACTUAL FACTORY PROCESS BEFORE PUBLISHING] — process steps and
-          descriptions on this page are drafts pending confirmation from M. K. Woolen.
+          Steps are indicative of the manufacturing process. The exact process may vary according to the yarn being produced and customer requirements.
         </Note>
       </Section>
 

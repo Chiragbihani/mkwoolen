@@ -12,9 +12,11 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ApplicationsRouteImport } from './routes/applications'
+import { Route as ContactRouteImport } from './routes/contact'
 import { Route as ManufacturingRouteImport } from './routes/manufacturing'
 import { Route as ProductsRouteImport } from './routes/products'
 import { Route as QualityRouteImport } from './routes/quality'
+import { Route as SampleRequestRouteImport } from './routes/sample-request'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -29,6 +31,11 @@ const AboutRoute = AboutRouteImport.update({
 const ApplicationsRoute = ApplicationsRouteImport.update({
   id: '/applications',
   path: '/applications',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ManufacturingRoute = ManufacturingRouteImport.update({
@@ -46,31 +53,42 @@ const QualityRoute = QualityRouteImport.update({
   path: '/quality',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SampleRequestRoute = SampleRequestRouteImport.update({
+  id: '/sample-request',
+  path: '/sample-request',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/applications': typeof ApplicationsRoute
+  '/contact': typeof ContactRoute
   '/manufacturing': typeof ManufacturingRoute
   '/products': typeof ProductsRoute
   '/quality': typeof QualityRoute
+  '/sample-request': typeof SampleRequestRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/applications': typeof ApplicationsRoute
+  '/contact': typeof ContactRoute
   '/manufacturing': typeof ManufacturingRoute
   '/products': typeof ProductsRoute
   '/quality': typeof QualityRoute
+  '/sample-request': typeof SampleRequestRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/applications': typeof ApplicationsRoute
+  '/contact': typeof ContactRoute
   '/manufacturing': typeof ManufacturingRoute
   '/products': typeof ProductsRoute
   '/quality': typeof QualityRoute
+  '/sample-request': typeof SampleRequestRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -78,34 +96,42 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/applications'
+    | '/contact'
     | '/manufacturing'
     | '/products'
     | '/quality'
+    | '/sample-request'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
     | '/applications'
+    | '/contact'
     | '/manufacturing'
     | '/products'
     | '/quality'
+    | '/sample-request'
   id:
     | '__root__'
     | '/'
     | '/about'
     | '/applications'
+    | '/contact'
     | '/manufacturing'
     | '/products'
     | '/quality'
+    | '/sample-request'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ApplicationsRoute: typeof ApplicationsRoute
+  ContactRoute: typeof ContactRoute
   ManufacturingRoute: typeof ManufacturingRoute
   ProductsRoute: typeof ProductsRoute
   QualityRoute: typeof QualityRoute
+  SampleRequestRoute: typeof SampleRequestRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -131,6 +157,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApplicationsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/manufacturing': {
       id: '/manufacturing'
       path: '/manufacturing'
@@ -152,6 +185,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof QualityRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/sample-request': {
+      id: '/sample-request'
+      path: '/sample-request'
+      fullPath: '/sample-request'
+      preLoaderRoute: typeof SampleRequestRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -159,9 +199,11 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ApplicationsRoute: ApplicationsRoute,
+  ContactRoute: ContactRoute,
   ManufacturingRoute: ManufacturingRoute,
   ProductsRoute: ProductsRoute,
   QualityRoute: QualityRoute,
+  SampleRequestRoute: SampleRequestRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

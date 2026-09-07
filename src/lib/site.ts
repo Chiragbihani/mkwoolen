@@ -1,26 +1,26 @@
 /**
- * Central content configuration for M. K. Woolen.
+ * Central content configuration for M. K. Woollen.
  * Update these values as the company confirms details.
  * Anything wrapped in [SQUARE BRACKETS] is an unconfirmed placeholder.
  */
 
 export const site = {
-  name: "M. K. Woolen",
-  tagline: "New Zealand Wool. Carefully Processed. Consistent Yarn.",
+  name: "M. K. Woollen",
+  tagline: "Customized Wool. Carefully Processed. Consistent Yarn.",
   city: "Bikaner",
   state: "Rajasthan",
   country: "India",
   address: "H-33, 34, 49, 50, Karni Agro Industrial Area, Bikaner, Rajasthan, India",
   phones: ["7726823592", "9351338278"],
   whatsapp: "917726823592", // [CONFIRM OFFICIAL WHATSAPP NUMBER]
-  email: "mkwoolen1@gmail.com",
+  email: "mkwoollen@gmail.com",
   businessHours: "[BUSINESS HOURS — TO BE CONFIRMED]",
   linkedin: "", // [ADD URL]
   instagram: "", // [ADD URL IF APPLICABLE]
 } as const;
 
 export const whatsappMessage =
-  "Hello M. K. Woolen, I am interested in your grey/undyed woolen yarn. I would like to discuss my requirement and request a sample.";
+  "Hello M. K. Woollen, I am interested in your grey/undyed woollen yarn. I would like to discuss my requirement and request a sample.";
 
 export const whatsappHref = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
 
@@ -56,7 +56,7 @@ export const processSteps = [
   },
   {
     title: "Spinning",
-    body: "Prepared wool fibres are converted into woolen yarn. [CONFIRM PROCESS]",
+    body: "Prepared wool fibres are converted into woollen yarn. [CONFIRM PROCESS]",
   },
   {
     title: "Winding / Packing",
@@ -71,7 +71,7 @@ export const processSteps = [
 export const products = [
   {
     title: "Carpet Yarn",
-    body: "Grey and undyed woolen yarn manufactured for carpet production.",
+    body: "Grey and undyed woollen yarn manufactured for carpet production.",
   },
   {
     title: "Yarn for Hand-Made Carpets",
@@ -88,20 +88,21 @@ export const products = [
 ] as const;
 
 export const specTable = [
-  ["Raw Material", "New Zealand Wool / [CONFIRM BLENDS]"],
-  ["Yarn Type", "Woolen Yarn"],
-  ["Colour State", "Grey / Undyed"],
+  [
+    "Raw Material",
+    "New Zealand, Turkey greasy, Spain greasy, European greasy, Jordan, Jodi, Eader, Spain Matrex, Saudi, Seredian, Egypt greasy, Tunisia, Algeria Backwash, Algeria Tanrey",
+  ],
+  ["Yarn Type", "Handspun, fine white, and other yarn types"],
+  ["Colour", "White, yellow, grey, light grey, black, and natural shades"],
   ["Application", "Carpet & Textile Manufacturing"],
-  ["Count Range", "[TO BE CONFIRMED]"],
-  ["Ply", "[TO BE CONFIRMED]"],
-  ["Twist", "[TO BE CONFIRMED]"],
-  ["Packaging", "[TO BE CONFIRMED]"],
+  ["Count Range", "0-90 counts"],
+  ["Ply", "2 to 6"],
   ["Form", "Hanks / Cones / [CONFIRM]"],
 ] as const;
 
 export const stats = [
-  { value: "[XX+]", label: "Years of Experience" },
-  { value: "[XX]", label: "Production Capacity" },
-  { value: "[XX]", label: "Spindles / Machines" },
-  { value: "[XX+]", label: "Markets / Customers" },
+  { value: "21+", label: "Years of Experience" },
+  { value: "5,000 kg/day", label: "Production Capacity" },
+  { value: "11", label: "Machines: 2 carding · 1 washing · 2 ring · 6 spinning" },
+  { value: "50+", label: "Customers Across India" },
 ] as const;

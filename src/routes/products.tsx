@@ -3,9 +3,9 @@ import yarnCones from "@/assets/yarn-cones.jpg";
 import { PageHero, Section, SectionHeading, CtaLink, Note } from "@/components/site/ui";
 import { products, specTable, whatsappHref } from "@/lib/site";
 
-const TITLE = "Grey & Undyed Wool Carpet Yarn | M. K. Woolen Products";
+const TITLE = "Grey & Undyed Wool Carpet Yarn | M. K. Woollen Products";
 const DESCRIPTION =
-  "Grey and undyed woolen carpet yarn manufactured in Bikaner for hand-knotted, hand-tufted and machine-made carpet production. Request current specifications.";
+  "Grey and undyed woollen carpet yarn manufactured in Bikaner for hand-knotted, hand-tufted and machine-made carpet production. Request current specifications.";
 
 export const Route = createFileRoute("/products")({
   head: () => ({
@@ -27,8 +27,8 @@ function Products() {
     <>
       <PageHero
         eyebrow="Products"
-        title="Grey & Undyed Woolen Yarn"
-        intro="Our core offering is grey/undyed woolen yarn manufactured for carpet and textile applications, produced primarily from New Zealand wool."
+        title="Grey & Undyed Woollen Yarn"
+        intro="Our core offering is grey/undyed woollen yarn manufactured for carpet and textile applications, produced primarily from New Zealand wool."
       />
 
       <Section>
@@ -52,7 +52,7 @@ function Products() {
             <div className="mt-8 overflow-x-auto">
               <table className="w-full border-collapse text-left text-sm">
                 <caption className="sr-only">
-                  M. K. Woolen grey and undyed woolen yarn specifications
+                  M. K. Woollen grey and undyed woollen yarn specifications
                 </caption>
                 <thead>
                   <tr className="border-b-2 border-ink">
@@ -70,21 +70,35 @@ function Products() {
                       <th scope="row" className="py-4 pr-6 font-semibold text-foreground">
                         {k}
                       </th>
-                      <td className="py-4 text-muted-foreground">{v}</td>
+                      <td className="py-4 text-muted-foreground">
+                        {k === "Raw Material" ? (
+                          <span
+                            tabIndex={0}
+                            title={v}
+                            className="group relative inline-block cursor-help rounded-sm outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                          >
+                            <span>New Zealand, Turkey greasy, Spain greasy...</span>
+                            <span className="invisible absolute left-0 top-full z-10 mt-2 w-72 rounded-sm bg-ink p-3 text-xs leading-relaxed text-cream opacity-0 shadow-lg transition-opacity group-hover:visible group-hover:opacity-100 group-focus:visible group-focus:opacity-100">
+                              {v}
+                            </span>
+                          </span>
+                        ) : (
+                          v
+                        )}
+                      </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
             <Note>
-              Product specifications can vary according to customer requirements. Please contact us
-              for current specifications and availability.
+              Product specifications can vary according to customer requirements.
             </Note>
           </div>
           <div>
             <img
               src={yarnCones}
-              alt="Grey undyed woolen carpet yarn packed and ready for dispatch"
+              alt="Grey undyed woollen carpet yarn packed and ready for dispatch"
               width={1200}
               height={900}
               loading="lazy"
