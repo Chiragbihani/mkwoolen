@@ -152,7 +152,7 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       <div className="flex min-h-screen flex-col">
         <Header />
-        <main className="flex-1 pb-16 lg:pb-0">
+        <main className="page-content flex-1 pb-16 lg:pb-0">
           {/* Required: nested routes render here. */}
           <Outlet />
         </main>

@@ -1,7 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import yarnCones from "@/assets/yarn-cones.jpg";
 import woolFibre from "@/assets/wool-fibre.jpg";
-import { PageHero, Section, ImagePlaceholder, ClosingCta } from "@/components/site/ui";
+import rolls from "@/assets/rolls.jpeg";
+import cardMachine from "@/assets/Card.jpeg";
+import { PageHero, Section, ClosingCta } from "@/components/site/ui";
 
 const TITLE = "Carpet Yarn Applications & Industries | M. K. Woollen";
 const DESCRIPTION =
@@ -32,7 +34,8 @@ const applications = [
   {
     title: "Hand-Tufted Carpets",
     body: "For businesses producing hand-tufted carpets and rugs that require dependable, repeatable yarn supply.",
-    placeholder: "Photo: Hand-tufted carpet production",
+    image: cardMachine,
+    alt: "Wool processing machine preparing fibre for hand-tufted carpet yarn",
   },
   {
     title: "Machine-Made Carpets",
@@ -43,7 +46,8 @@ const applications = [
   {
     title: "Custom Carpet Applications",
     body: "For other carpet and textile requirements, subject to specification and technical feasibility.",
-    placeholder: "Photo: Custom application",
+    image: rolls,
+    alt: "Woollen yarn rolls prepared for custom carpet applications",
   },
 ];
 
@@ -67,18 +71,14 @@ function Applications() {
                 i % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
               }`}
             >
-              {a.image ? (
-                <img
-                  src={a.image}
-                  alt={a.alt ?? a.title}
-                  width={1200}
-                  height={900}
-                  loading="lazy"
-                  className="aspect-[4/3] w-full object-cover"
-                />
-              ) : (
-                <ImagePlaceholder label={a.placeholder ?? a.title} />
-              )}
+              <img
+                src={a.image}
+                alt={a.alt ?? a.title}
+                width={1200}
+                height={900}
+                loading="lazy"
+                className="aspect-[4/3] w-full object-cover transition-transform duration-500 hover:scale-[1.02]"
+              />
               <div>
                 <h2 className="font-display text-3xl text-foreground">{a.title}</h2>
                 <p className="mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
@@ -97,7 +97,10 @@ function Applications() {
         </p>
         <ul className="mt-9 flex flex-wrap gap-3">
           {hubs.map((h) => (
-            <li key={h} className="border border-input px-5 py-2.5 text-sm font-medium text-foreground">
+            <li
+              key={h}
+              className="cursor-default border border-input px-5 py-2.5 text-sm font-medium text-foreground transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:bg-background hover:text-accent"
+            >
               {h}
             </li>
           ))}

@@ -79,7 +79,7 @@ export function CtaLink({
   analytics?: string;
 }) {
   const base =
-    "inline-flex items-center justify-center rounded-sm px-6 py-3.5 text-sm font-semibold tracking-wide transition-all duration-200";
+    "inline-flex items-center justify-center rounded-sm px-6 py-3.5 text-sm font-semibold tracking-wide transition-all duration-200 hover:-translate-y-0.5";
   const variants = {
     solid: "bg-primary text-primary-foreground hover:bg-accent",
     outline: "border border-input text-foreground hover:border-accent hover:text-accent",

@@ -35,8 +35,8 @@ export function Header() {
             <Link
               key={item.to}
               to={item.to}
-              className="text-sm font-medium text-ink-soft transition-colors hover:text-accent"
-              activeProps={{ className: "text-accent" }}
+              className="nav-tab text-sm font-medium text-ink-soft"
+              activeProps={{ className: "nav-tab text-accent" }}
               activeOptions={{ exact: item.to === "/" }}
             >
               {item.label}
@@ -44,7 +44,7 @@ export function Header() {
           ))}
           <Link
             to="/sample-request"
-            className="inline-flex items-center rounded-sm bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-accent"
+            className="inline-flex items-center rounded-sm bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent"
           >
             Request Sample
           </Link>
@@ -69,8 +69,8 @@ export function Header() {
                 key={item.to}
                 to={item.to}
                 onClick={() => setOpen(false)}
-                className="border-b border-border py-3.5 text-base font-medium text-ink-soft"
-                activeProps={{ className: "text-accent" }}
+                className="nav-tab block border-b border-border py-3.5 text-base font-medium text-ink-soft"
+                activeProps={{ className: "nav-tab block border-b border-border py-3.5 text-base font-medium text-accent" }}
                 activeOptions={{ exact: item.to === "/" }}
               >
                 {item.label}
@@ -79,13 +79,13 @@ export function Header() {
             <Link
               to="/sample-request"
               onClick={() => setOpen(false)}
-              className="mt-4 inline-flex items-center justify-center rounded-sm bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground"
+              className="mt-4 inline-flex items-center justify-center rounded-sm bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent"
             >
               Request Sample
             </Link>
             <a
               href={`tel:+91${site.phones[0]}`}
-              className="mt-2 mb-3 inline-flex items-center justify-center rounded-sm border border-input px-5 py-3 text-sm font-semibold text-foreground"
+              className="mt-2 mb-3 inline-flex items-center justify-center rounded-sm border border-input px-5 py-3 text-sm font-semibold text-foreground transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:text-accent"
             >
               Call +91 {site.phones[0]}
             </a>
